@@ -1,0 +1,99 @@
+aside{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: .8em;
+	background: #eeff99;
+	padding:20px;
+	border: 1px solid #696;
+	border-radius: 20px;
+}
+body{
+    background-image: "mapa3.png";
+	font-family:Rockwell,Arial,Hellvetica,sans-serif;
+	background: #8888ab;
+	width:90%;
+}
+
+h1 {
+font-size:3em;
+
+}
+h2{
+
+}
+h3{
+	text-underline:none;
+}
+header{
+ 	width:80%;
+ 	background: black;
+ 	color:white;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding:10px;
+ 	padding-bottom:30px;
+ 	
+
+}
+
+img {
+	margin:0px 0px 10px 10px;
+	box-shadow: 3px 3px 5px 1px #eeeeee;
+}
+
+
+nav li{
+	float: left;
+	margin-right:10px;
+	font-style: bold;
+}
+nav ul{
+	list-style-type: none;
+
+}
+
+
+section{
+ 	width:80%;
+ 	background: #bbbbbb;
+ 	color:black;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding: 10px;
+}
+
+footer{
+ 	width:80%;
+ 	background: black;
+ 	color:white;
+ 	margin-left: auto;
+ 	margin-right: auto;	
+}
+
+table {
+     border-collapse: collapse;
+     border: solid thick;
+     width:90%;
+     margin-right:auto;
+     margin-left:auto;	
+  }
+  colgroup, tbody { 
+    border: solid thin; 
+  }
+  td {
+    border: solid thin;
+    height: 2em;
+    width: 15em;
+    text-align: center;
+    padding: 20;
+    font-family:Rockwell,Arial;
+    font-size: larger;
+ }
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

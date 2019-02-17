@@ -15,9 +15,9 @@ function contarHasta10() {
 
 
 function cambiarMapa1(){
-	document.getElementById("imagenMapa").src = "mapa2.png";
+	document.getElementById("imagenMapa").src = "mapa2.gif";
 }
 
 function cambiarMapa2(){
-	document.getElementById("imagenMapa").src = "mapa.png";
+	document.getElementById("imagenMapa").src = "mapa.gif";
 }

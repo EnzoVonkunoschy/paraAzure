@@ -6,12 +6,25 @@
 	<link rel="stylesheet" type="text/css" href="../stylesheet.css" media="screen">
 </head>
 <body>
+	<!--  ----------------style------------------------->
+	<style scoped>
+		table {
+			border: none;
+		}
+		td {
+			border: none;
+		}
+		tbody {
+			border: none;
+		}
+	</style>
+	<a name="top">
 	<header>
 		<h1>
 			Curso de Tecnología Electrónica
 		</h1>
 		<h2>					
-			<p>CCT 6-303 - <a href="http://catalogo.inet.edu.ar/institucion/referer:509/centro-de-capacitacion-para-el-trabajo-n-6-303-francisca-godoy-de-molina-3133">Escuela Francisca Godoy de Molina</a></p>
+			<p>CCT 6-303 - Escuela Francisca Godoy de Molina</p>
 		</h2>
      	<nav>
      		<ul>
@@ -24,70 +37,87 @@
      		</ul>
      	</nav>
 	</header>
+
+
 	<section>
+		<table>
+			<tr>
+				<td>
+					
+					<h3>Fabricación de circuitos impresos.</h3>
+					<p>Cualquier proyecto de tecnología y electrónica necesita una placa impresa donde montar los componentes.  Espas placas pueden conseguirse en los comercios, pero en la mayoría de los casos, la fabricaremos nosotros mismos.</p>
+				</td>
+				<td>
+					<figure>
+						<img src="circuitos_impresos.gif" alt="Imágen de Circuitos Impresos." width="300" height="350">
+						<figcaption>Elementos necesarios para la fabricación de circuitos impresos.</figcaption>
+					</figure>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<figure>
+						<img src="alarma.gif" alt="Imágen de Alarma" width="300" height="150">
+						<figcaption>Alarma domiciliaria</figcaption>
+					</figure>
+				</td>
+				<td>
+					<h3>Alarma Domiciliaria</h3>
+					<p>Podrás construir una alarma domiciliaria con todas las características de una alarma comercial: zona inmediata, zona demorada, cargador de batería interna y control remoto.</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3>Control de nivel de Agua Tanque-Sisterna</h3>
+					<p>Construiremos un controlador electrónico para mantener el nivel de agua en un tanque, a partir de una sisterna y una bomba centrífuga</p>
+				</td>
+				<td>
+					<figure>
+					<img src="cdndl_todo.gif" alt="Imágen de Control de nivel de liquidos." width="300" height="350">
+						<figcaption>
+							<p><small>
+								1 - Modelo terminado del control de nivel de agua. 2 - Circuito electrónico de control contenido dentro del control de nivel. 3 - Varilla sensora de nivel de agua.</small>
+							</p>
+						</figcaption>
+					</figure>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<figure>
+						<img src="microcircuito.gif" alt="Imágen de microcircuito." width="300" height="300">
+						<figcaption>
+							Circuito con componentes SMD.  Se observa una lapicera común para comparar el tamaño.
+						</figcaption>
+					</figure>	
+				</td>
+				<td>
+					<h3>Fabricación de circutitos con componentes de montaje superficial (SMD) reciclados.</h3>
+					<p>Como desafío realizaremos circuitos electrónicos con componentes de montaje superficial reciclados de otros equipos deshechados (chatarra electrónica).</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3>¿Qué proyecto vas a hacer <b>vos</b>?</h3>
+					<p>Aunque hay proyectos predefinidos, tu puedes elegir y realizar algún proyecto que te interese en particular.</p>
+				</td>
+				<td>
+					<figure>
+					<img src="tuproyecto00.gif" width="300" height="200">
+					</figure>
+				</td>
+			</tr>
+		</table>
 
-		<a name="top">
-		<h3>Fabricación de circuitos impresos.</h3>
-		<p>Cualquier proyecto de tecnología y electrónica necesita una placa impresa donde montar los componentes.  Espas placas pueden conseguirse en los comercios, pero en la mayoría de los casos, la fabricaremos nosotros mismos.</p>
-		<figure>
-			<img src="circuitos_impresos.gif" alt="Imágen de Circuitos Impresos.">
-			<figcaption>Elementos necesarios para la fabricación de circuitos impresos.</figcaption>
-		</figure>
 
 
-		<h3>Alarma Domiciliario</h3>
-		<p>Fabricaremos todas las etapas de una alarma domiciliaria.  Algunas de sus características:</p>
-		<ul>
-			<li>Encendido demorado, para poder salir del domicilio luego de la activación.</li>
-			<li>Activación inmediata.  La alarma se dispara al momento de acceder a la zona protegida.</li>
-			<li>Activación demorada.  La alarma no se dispara inmediatamente sino que se retrasa para permitirle al usuario llegar a desactivar el dispositivo.</li>
-			<li>Control remoto.  La alarma es activada y desactivada a distancia (fuera del domicilio).</li>
-			<li>Cargador de batería.  La batería alimenta el dispositivo en caso de fallo eléctrico.</li>
-		</ul>
-		<figure>
-			<img src="alarma.gif" alt="Imágen de Alarma">
-			<figcaption>Alarma domiciliaria</figcaption>
-		</figure>
-
-		<h3>Control de nivel de Agua Tanque-Sisterna</h3>
-		<p>Fabricaremos todas las etapas del control de nivel.  Algunas de sus características:</p>
-		<ul>
-			<li>Control de mínimo y máximo nivel de agua de tanque.</li>
-			<li>Control de mínimo y máximo nivel de la sisterna.</li>
-			<li>Lógica de control y activación de bomba centrífuga.</li>
-			<li>Varillas sensoras de nivel de agua.</li>
-			<li>Fuente de alimentación y batería de respaldo</li>
-		</ul>
-		<figure>
-			<img src="cdndl_todo.gif" alt="Imágen de Control de nivel de liquidos.">
-			<figcaption>
-				<ol>
-					<li>Modelo terminado del control de nivel de agua.</li>
-					<li>Circuito electrónico de control contenido dentro del control de nivel.</li>   
-					<li>Varilla sensora de nivel de agua.</li>
-				</ol>
-			</figcaption>
-		</figure>
-
-		<h3>Fabricación de circutitos con componentes de montaje superficial (SMD) reciclados.</h3>
-		<p>Como desafío realizaremos circuitos electrónicos con componentes de montaje superficial reciclados de otros equipos deshechados (chatarra electrónica).</p>
-		<figure>
-			<img src="microcircuito.gif" alt="Imágen de microcircuito.">
-			<figcaption>Circuito con componentes SMD.  Se observa una lapicera común para comparar el tamaño.</figcaption>
-		</figure>
-
-		<h3>¿Qué proyecto vas a hacer <b>vos</b>?</h3>
-		<p>Aunque hay proyectos predefinidos, tu puedes elegir y realizar algún proyecto que te interese en particular.</p>
-		<figure>
-			<img src="tuproyecto00.gif">
-		</figure>
 
 		<p><a href="#top">Arriba</a></p>
 
 	</section>
 	<hr>
   		<footer>
-  			<p><small>Copyright © - 2019 - Enzo Vonkunoschy </small> - <a href="http://www.bing.com" target="_blank"> Buscar en Bing</a></p>
+          	<p>CCT 6-303 - Escuela Francisca Godoy de Molina</p>
   		</footer>
 </body>
 </html>

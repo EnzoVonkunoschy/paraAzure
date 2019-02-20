@@ -39,7 +39,7 @@ header{
 
 img {
 	margin:0px 0px 10px 10px;
-	box-shadow: 3px 3px 5px 1px #eeeeee;
+	/*box-shadow: 3px 3px 5px 1px #eeeeee;*/
 }
 
 
@@ -48,10 +48,15 @@ nav li{
 	margin-right:10px;
 	font-style: bold;
     text-align: center;
+
+
 }
 nav ul{
 	list-style-type: none;
-    
+}
+
+nav a {
+    color: #ffff00;
 }
 
 
@@ -69,7 +74,9 @@ footer{
  	background: black;
  	color:white;
  	margin-left: auto;
- 	margin-right: auto;	
+ 	margin-right: auto;
+    padding:10px;
+    padding-bottom:30px;	
 }
 
 table {
@@ -100,3 +107,19 @@ textarea {
     margin-right: auto;
 }
 
+ul {
+    list-style: none;
+}
+
+.pie {
+  border-color: black;
+}
+
+.izq {
+  text-align: right;
+  border-color: black;
+}
+.der {
+  text-align: left;
+  border-color: black;
+}

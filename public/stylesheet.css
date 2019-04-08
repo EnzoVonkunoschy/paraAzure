@@ -111,6 +111,10 @@ ul {
   text-align: left;
   border-color: black;
 }
+
+.sangrado {
+  padding-left: 2.0cm;
+}
 aside{
   width: 80%;
   margin-right: auto;

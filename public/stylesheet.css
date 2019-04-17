@@ -125,3 +125,7 @@ aside{
   border: 1px solid #696;
   border-radius: 20px;
 }
+
+.separado {
+  line-height: 200%;
+}

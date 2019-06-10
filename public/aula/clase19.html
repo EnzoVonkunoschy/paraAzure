@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Curso Electrónica</title>
+      <link rel="stylesheet" type="text/css" href="../stylesheet.css" media="screen">
+      <script type="text/javascript" src="script01.js"></script>
+      <script type="text/javaScript" src="clase19_archivos/script.js"></script>
+    </head>
+<!-------------------------------------------------------------------------------->
+  <body>
+	<header>
+		<h1>
+			Curso de Tecnología Electrónica
+		</h1>
+    <nav>
+      <ul>
+        <li><a href="clase18.html">Anterior</a></li>
+        <li></li>
+        <li><a href="clase18.html"></a></li>
+      </ul>
+    </nav>
+  </header>
+<section>
+<!--------------------------------------------------------------------------------->
+<h1>Capacitor 2</h1><h2>Funcionamiento del capacitor o condensador</h2><p>Se describe a continuación el funcionamiento de un capacitor.</p><ul><li>Al conectar el capacitor al generador, las cargas negativas (sentido físico) abandonan el terminal negativo del generador para dirigirse a la placa neg ativa.</li><li>Las cargas negativas que llegan a la placa negativa, debido a la ley de atracción repulsión, se distribuyen uniformemente.</li><li>Las cargas negativas de la placa positiva son repelitas por las cargas negativas de la placa negativa, y atraídas por el terminal positivo del generador.</li><li>Una vez alcanzado el punto de saturación de cargas de ambas placas, la corriente dejará de fluir desde el generador hacia el capacitor, alcanzando un estado estable.  Diremos que el capacitor está cargado.</li></ul><br>
+<br> 
+ <div align=center>
+  <figure>
+    <img src=clase19_archivos/img_cla_19_01.png>
+    <figcaption></figcaption>
+  </figure>
+</div><br>
+<h3>Descarga del capacitor</h3><ul><li>Ahora podemos desconectar el capacitor del generador. El capacitor seguirá cargado hasta provocar su descarga por un medio externo.</li><li>Para descargar el capacitor debemos formar un circuito de descarga de las almacenadas.</li><li>Si cerramos un circuito eléctrico, de manera de permitir la circulación de cargas a través de él, las cargas fluirán en el sentido contrario al ciclo de carga.</li><li>La energía almacenada provocará la circulación de cargas, hasta que se alcance la descarga del capacitor y se llegue a otro estado estable.</li></ul>
+<br> 
+ <div align=center>
+  <figure>
+    <img src=clase19_archivos/img_cla_19_02.png>
+    <figcaption></figcaption>
+  </figure>
+</div><br> 
+<h3>Esquema Eléctrico</h3><p>Los dos dibujos anteriores pueden expresarse en un solo circuito eléctrico.</p><br><div align=center><figure><img src=clase19_archivos/img_cla_19_03.png><figcaption></figcaption></figure></div><br><p>Presionando el pulsador sw1 se produce la carga del capacitor. Para el circuito mostrado, bastará un par de segundos.</p><p>Presionando el pulsador sw2 se producirá la descarga del capacitor a traves de la Resistencia R1 y del díodo led D1.  La luminosidad del led y el calor disipado por la resistencias, serán el equivalente de la energía eléctrica almacenada por el capacitor durante el ciclo de carga.</p>
+
+<h2>Asociación de Capacitores</h2>
+    <h3>Asociación de capacitores en paralelo</h3>
+        <p>La asociación de capacitores en paralelo se realiza como se observa en el siguiente esquema eléctrico:</p>
+        <br>
+            <div align=center><figure><img src=clase19_archivos/img_cla_19_04.png><figcaption></figcaption></figure></div><br>
+        <p>¿Cuál será el valor de la capacidad resultante de una asociación de capacitores en paralelo.?</p>
+        <p>El valor de la capacidad equivalente de una asociación de capacitores en es igual a las suma de las capacidades individuales.  Matemáticamente:</p>
+        <br><div align=center><figure><img src=clase19_archivos/img_cla_19_05.png><figcaption></figcaption></figure></div><br>
+      
+        <h3>Asociación de cpacitores en serie</h3>
+          <p>La asociación de capacitores en serie se realiza como se observa en el siguiente esquema eléctrico:</p>
+          <br>
+          <br><div align=center><figure><img src=clase19_archivos/img_cla_19_06.png><figcaption></figcaption></figure></div><br>
+
+          <p>El valor de capacidad equivalente de una asociación de capacitores en serie será igual al  producto de los valores individuales dividido por la suma de los valores individuales.  Matemáticamente:</p>
+        <br><div align=center><figure><img src=clase19_archivos/img_cla_19_07.png><figcaption></figcaption></figure></div><br>
+<hr>
+<h2>Calculador de capacidad equivalente</h2>
+<p><b>(Las unidades, múltiplos o submúltiplos deben coincidir)</b></p>
+<p><label>C1 --><input type="text" name="c1" id="c1"></label></p>
+<p><label>C2 --><input type="text" name="c2" id="c2"></label></p>
+<p><button id="calcular" onclick="calcular()">Capacidad Equivalente</button></p>
+<table>
+  <tr>
+    <td colspan="2">Capacidad Equivalente</td>
+  </tr>
+  <tr>
+    <td>Serie</td>
+    <td>Paralelo</td>
+  </tr>
+  <tr>
+    <td id="eqSerie"></td>
+    <td id="eqParal"></td>
+  </tr>
+</table>
+<hr>
+   
+<!--------------- Práctica -------------------------------------->
+    <h2>Práctica</h2>
+    <ul class="separado">
+      <li>Identificar capacitores cargados y descargados con instrumentos de medida.</li>
+      <li>Técnicas de descarga de capacitores para manipulación segura.</li>
+      <li>Carga y descarga de capacitores.</li>
+      <li>Medición de capacidad con instrumentos. Precauciones.</li>
+      <li>Asociación de capacitores en serie.</li>
+      <li>Identificación de capacitores conectados en serie y en paralelo.</li>
+      <li>Cálculo de capacidades equivalentes.</li>
+    </ul>
+<!------------------ Evaluación ------------------------------------>
+    <h2>Evaluación</h2>
+    <!--     -->
+    <p>&nbsp;&nbsp;Aunque la evaluación es contínua, este tema tendrá una instancia de evaluación escrita.</p
+    <h3>Cuestionario de la Evaluación</h3>
+
+    <ol class="separado">
+        <li>¿Qué ocurre al conectar un capacitor descargado a un generador?</li>
+        <li>¿Cuándo un capacitor estará totalmente cargado?</li>
+        <li>¿Al desconectar del generador un capacitor cargado, pierde su carga?</li>
+        <li>¿Cómo descargamos un capacitor que se encuentra cargado?</li>
+        <li>¿Cuándo el capacitor estará descargado?</li>
+        <li>¿Cómo conectamos dos capacitores en paralelo?</li>
+        <li>¿Cómo conectamos dos capacitores en serie?</li>
+        <li>¿Cómo calculamos la capacidad equivalente de dos capacitores conectados en paralelo?</li>
+        <li>¿Cómo calculamos la capacidad equivalente de dos capacitores conectados en serie?</li>
+        <li>Ejercicios de cálculo de equivalentes serie y paralelo.</li>
+    </ol>
+
+    <br>
+    <a href="aula.html">Volver al aula</a>
+  </section>
+
+    <div id="pieDePagina"></div>
+    <script type="text/javascript" src="images/wrd_cla_16/script16.js"></script>    
+  </body>
+</html>

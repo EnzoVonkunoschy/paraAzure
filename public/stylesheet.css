@@ -133,3 +133,7 @@ aside{
 ul .azul {
   color: #0000aa;
 }
+
+.sinBorde {
+  border: 0;
+}
